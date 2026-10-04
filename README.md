@@ -39,6 +39,11 @@ node bin/gibwork-evidence.mjs bundle evidence/<run>/manifest.json
 
 The `bundle` command creates a reviewer-friendly Markdown summary. Changing stdout, stderr, or any manifest artifact makes verification fail.
 
+## Demo
+
+- [Terminal demo video](examples/demo.mp4)
+- [Terminal screenshot](examples/terminal-demo.png)
+
 ## Why this is a Gibwork use case
 
 - **SDK/CLI integration:** the official `@gibwork/cli` is invoked for task retrieval and its JSON result is embedded in the evidence manifest.
