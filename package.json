@@ -1,0 +1,21 @@
+{
+  "name": "gibwork-evidence-runner",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Reproducible evidence bundles for terminal-based Gibwork submissions",
+  "bin": {
+    "gibwork-evidence": "bin/gibwork-evidence.mjs"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node bin/gibwork-evidence.mjs run --task 1052f22d-3f87-4b1d-b0d7-71a60679e7fa --label demo -- node -e 'console.log(42)'"
+  },
+  "dependencies": {
+    "@gibwork/cli": "0.2.4"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
